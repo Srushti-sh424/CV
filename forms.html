@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Forms in HTML</title>
+</head>
+
+<body>
+  <form action="mailto:srushtisharma424@gmail.com" method="post" enctype="text/plain">
+    <label>Text Input Control:</label><br />
+    Name:<input type="text" name="name" /><br />
+    Password:<input type="password" name="password" minlength="8" /><br />
+    Description:<textarea name="description" rows="8" cols="80">Enter the description here...</textarea><br />
+    <label>Checkbox Control(More than one):</label><br />
+    <input type="checkbox" name="Maths" value="on" />Maths<br />
+    <input type="checkbox" name="Physics" value="on" />Physics<br />
+    <label>Radio Button(only one option):</label><br />
+    <input type="radio" name="Subject" value="Maths" />Maths<br />
+    <input type="radio" name="Subject" value="Physics" />Physics<br />
+    <label>Select Box Control:</label<br />>
+      <select name="drop down">
+        <option value="Maths" selected></option>
+        <option value="Physics"></option>
+      </select><br />
+      <label>File Upload Box:</label><br />
+      <input type="File" name="file upload" accept="image/*" /><br />
+      <label>Butto Control:</label><br />
+      <input type="submit" name="submit" value="Submit" /><br />
+      <input type="reset" name="reset" value="Reset" /><br />
+      <input type="button" name="ok" value="OK" /><br />
+      <input type="image" name="imagebutton" src="C:\Users\Bhawna\Desktop\Web Development 2.0\HTML Personal Site\Srushti.jpeg" width="100" height="90" /><br />
+      <label>Date:</label><br />
+      <input type="date" name="trip-start" value="2020-28-12" /><br />
+      <label>Range:</label><br />
+      <input type="range" name="volume" min="0" max="11" /><br />
+      <label>Search the site:</label><br />
+      <input type="search" id="site-search" name="q" aria-label="Search through site content">
+      <button>Search</button>
+  </form>
+</body>
+
+</html>
